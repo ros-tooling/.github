@@ -3,3 +3,4 @@ Any files contained here will be used by repositories in this organization unles
 
 This contains:
 * Issue Templates
+* A CODEOWNERS file that is a good starting place for any new repository in this organization
