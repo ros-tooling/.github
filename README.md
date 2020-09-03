@@ -3,3 +3,4 @@ Any files contained here will be used by repositories in this organization unles
 
 This contains:
 * Issue Templates
+* A CODEOWNERS file to be copied into any new repo as the default setting
