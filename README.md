@@ -3,3 +3,4 @@ Any files contained here will be used by repositories in this organization unles
 
 This contains:
 * Issue Templates
+* A default CODEOWNERS file that can be used as a template for new repositories. Unfortunately this doesn't propagate automatically.
