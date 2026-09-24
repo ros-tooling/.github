@@ -1,11 +1,26 @@
-## ROS Tooling
+# ROS Tooling
 
-This organization is dedicated to filling extra developer tooling & application utilities for ROS 2. The definition of "tooling" is very broad here, but its scope excludes the core functionality of ROS as a middleware framework.
+This organization is dedicated to filling extra application utilities and developer tooling for ROS 2. 
+The definition of "tooling" is broad, but the scope here excludes the core functionality of ROS as a middleware framework.
 
-The "Rosbag2 & Tooling Working Group" uses this org as a home base for work outside the core.
+## Rosbag2 & Tooling Working Group
 
-For a sense of the type of tooling maintained here:
+The "Rosbag2 & Tooling Working Group" uses this org as a home base for work outside the core, including:
+
 - GitHub Actions for CI of ROS projects
-- ROS 2 Graph Monitor: observes and reports overall state and health of your application, including complete topic statistics
 - `topic_tools`: nodes for manipulating topics in your application
 - Rosbag2 B-Roll extension for dealing with encoded video streams
+
+## ROSgraph Working Group
+
+The ROSgraph working group also keeps its repositories here, including:
+
+- [NoDL](https://github.com/ros-tooling/nodl): The ROS Node Definition Language
+- [Graph Monitor](https://github.com/ros-tooling/graph-monitor): observes and reports application graph as `rosgraph_msgs`, has a global topic statistics implementation, and evaluates certain graph conditions to `diagnostic_msgs`.
+
+Resources:
+- [Zulip Chat Channel](https://openrobotics.zulipchat.com/#narrow/channel/546182-ROSGraph-Working-Group/)
+- [Mailing List](https://groups.google.com/u/1/g/rosgraph-wg)
+- [Running WG notes and information doc](https://docs.google.com/document/d/1xFqQECOKVCR3sZIUHGCPUi2huXw6nvgMxu6G3qBuQDU/edit?usp=sharing)
+
+
